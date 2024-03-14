@@ -1,0 +1,104 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh   ;
+    background-color: #f8eded;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .container{
+    background-color: #fff;
+    border-radius: 4%;
+    padding: 2rem;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4) ;
+ }
+
+ .card-img {
+    background-color: #e6e6e6;
+    border-radius: 20px;
+    position: relative;
+ }
+
+ .limited {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: yellow;
+    color: black;
+    padding: 8px;
+    border-radius: 7px;
+    display: none;  
+     
+ }
+ .btn{
+    background-color: #ec991b;
+    padding: 5px;
+    border-radius: 7px;
+    position: relative;
+    margin-top: 7px;
+    left: 230px;    
+}
+
+ .card-info{
+    margin: 1rem;
+    
+ }
+
+ .product-brand {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+ }
+
+ h3{
+    margin: 0.5rem 0;
+    font-size: 24px;
+ }
+
+ .price{
+    font-size: 20px;
+ }
+
+ 
+ ul {
+    display: flex;
+    margin-top: 0.5rem;
+    list-style: none;
+    & li {
+        cursor: pointer;
+    }
+}
+
+.blue-color{
+    background-color: blue;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.red-color{
+    background-color: red;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+}
+
+.green-color{
+    background-color: green;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+    
